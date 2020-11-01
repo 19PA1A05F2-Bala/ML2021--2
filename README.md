@@ -2,6 +2,10 @@
 
 # AGRO BOT
 
+# Team members
+1. Pulaparthi Bala Sailaja 19PA1A05F2
+2. Samansi Harsha Vardhan 19PA1A05G2
+
 # Description
 
 - Main objective of agrobot is to give the properties and suitable crops for a soil.
