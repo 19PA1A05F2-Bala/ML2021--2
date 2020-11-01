@@ -1,0 +1,37 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>Chatbot</title>
+<meta charset="utf-8">
+<link rel="stylesheet" href="agrobot.css" />
+<link rel="icon" href="https://i.pinimg.com/736x/fd/a1/3b/fda13b9d6d88f25a9d968901d319216a.jpg" type="image/icon type">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+</head>
+<body>
+  <div class ="row">
+    <div class="first col-sm-5">
+      <h1>AGROBOT</h1><hr>
+      <p>
+        <b>If you give me the name of your soil like black soil,red soil etc...,
+        I'll give the properties and the suitable crops for your soil..</b>
+      </p>
+    </div>
+    <div class=" second col-sm-7">
+      <div class="row">
+        <div id='start'>
+          <h1>Chat here...</h1>
+          <input class="input-box" id="input" type="text" placeholder="Type here" autocomplete="off">
+          <button class="button" type="button" onclick=" myFunction()"> send</button>
+        </div>
+      </div>
+      <div id='chat'></div>
+    </div>
+
+
+  
+  <script src="agrobot.js"></script>
+  <script src="agrobot.json"></script>
+
+</body>
+</html>

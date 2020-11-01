@@ -1,0 +1,50 @@
+var greet =["hi","hello","hey","hii","hai","hey hi"]
+var soiltypes = ["black soil","red soil","aluvial soil","laterite soil","arid soil","forest or mountain soil","desert soil","other soil"]
+var get_to_know_bot = ["how are you","how do you do"]
+var get_to_know_user =["I am doing well","fine","i am fine","i'm fine"]
+var wishes = ["good morning","good afternoon","good evening","good night"]
+var bye = ["bye","good bye","bye bye"]
+var matter =[		
+            {
+                "soilname":"black soil",
+                "properties":"Rich in Iron,lime,magnesium,aluminium. Poor in phosphorous,Nitrogen and humus. Black soils become sticky when wet and develop cracks in any season.",
+                "crops":"Cotton,Rice,Sugarcane,Wheat,Jowar,Sunflower,Cereals,Citrus fruits,Vegetables,Tobacco,Groundnut,Oil seed crops and Milllets"
+            },
+            {
+                "soilname":"red soil",
+                "properties":" These soils are red in color due to presence of Iron oxide.These are sandy and rich in Potash.  They are poor in lime,Nitrogen,phosphorous,magnesium,Iron-oxide.",
+                "crops":"Rice,Wheat,Sugarcane,Groundnut,Maize/corn,Ragi,Potato,oil seeds,Pulses,Milllets,fruits such as Orange,Mango,Citrus"
+                 
+             },
+             {
+                 "soilname":"aluvial soil",
+                 "properties":"Aluvial soils are mixture of clay and sand.Rich in phosphoric acid and organic mattter. Poor in Nitrogen and Potash.",
+                 "crops":"Tobacco,Cotton,Rice,Wheat,bajra,Jowar,pea,pigeon pea,chick pea,black gram,green gram,mustard,linseed,sesam,barle,jute,maize,any oil seeds"
+                
+            },
+            {
+                "soilname":"laterite soil",
+                "properties":"Rich in Iron. Poor in humus,phosphate,Nitrogen and Calcium",
+                "crops":"Cotton,Rice,Wheat,tea,cofee,rubber,coconut,cashews,these are used to make bricks due to presence large amounts of Iron"
+             },
+            {
+                "soilname":"arid soil",
+                "properties":"Rich in plant food.These soils are deficient of humus and moisture due to the fact that high evaporation in arid regions.",
+                "crops":"Wheat,Cotton,corn,Milllets,pulses,barley"
+             },
+            {
+                "soilname":"forest or mountain soil",
+                "properties":"Rich in organic matter. \n Poor in nutrients such as Potash, Phosphorous and Lime.",
+                "crops" : "tea,spices,Wheat,barly,maize,coffee,tropical fruits and temperature fruits"
+             },
+            {
+                "soilname":"desert soil",
+                 "properties":"These soils are sandy and dry and contains some amount of Nitrogen",
+                "crops":"millet and barly"
+             },
+            {
+                "soilname":"other soil",
+                 "properties":"not suitable for cultivation",
+                "crops": "not suitable for cultivation"
+             } 
+]
